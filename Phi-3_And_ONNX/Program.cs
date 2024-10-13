@@ -6,7 +6,6 @@
 
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
-using Microsoft.SemanticKernel.Connectors.OpenAI;
 var phi3modelPath = @"D:\data\Phi3Models\Phi-3-mini-4k-instruct-onnx\cpu_and_mobile\cpu-int4-rtn-block-32";
 
 var builder = Kernel.CreateBuilder();
